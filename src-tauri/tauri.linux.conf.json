@@ -1,5 +1,5 @@
 {
-    "productName": "mv",
+    "productName": "memv",
     "bundle": {
       "linux": {
         "deb": {

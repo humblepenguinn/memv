@@ -80,7 +80,7 @@ jobs:
         with:
           tagName: 'v__VERSION__'
           releaseName: 'Release __VERSION__'
-          releaseBody: '[Changelog __VERSION__](https://github.com/humblepenguinn/mv/blob/main/CHANGELOG.md)'
+          releaseBody: '[Changelog __VERSION__](https://github.com/humblepenguinn/memv/blob/main/CHANGELOG.md)'
           includeUpdaterJson: true
           releaseDraft: true
           prerelease: false

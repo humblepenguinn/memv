@@ -103,7 +103,7 @@ export function SettingsButton(props: SettingsButtonProps) {
           </DropdownMenuLabel>
           <DropdownMenuItem
             onSelect={async () => {
-              const url = 'https://github.com/humblepenguinn/mv/issues';
+              const url = 'https://github.com/humblepenguinn/memv/issues';
               if (appInfo.isDesktop) {
                 try {
                   await invokeCmd('cmd_open_url', {
@@ -179,7 +179,7 @@ export function SettingsButton(props: SettingsButtonProps) {
           <div className="px-3 py-2 text-xs text-muted-foreground">
             <div className="flex items-center gap-2 mb-1">
               <Info className="w-3 h-3" />
-              <span>MV v{appInfo.version}</span>
+              <span>{appInfo.name.toUpperCase()} v{appInfo.version}</span>
             </div>
           </div>
         </DropdownMenuContent>

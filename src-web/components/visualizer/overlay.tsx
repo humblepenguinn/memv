@@ -13,7 +13,7 @@ export function Overlay() {
           </h3>
           <p className="text-sm text-muted-foreground max-w-sm mx-auto leading-relaxed">
             Write some C++ code to see real-time memory visualization of the
-            stack and heap allocations'
+            stack and heap allocations
           </p>
         </div>
       </div>

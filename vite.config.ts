@@ -12,7 +12,7 @@ export default defineConfig(async () => ({
   base:
     process.env.TAURI_ENV_PLATFORM || process.env.NODE_ENV === 'development'
       ? '/'
-      : '/mv/',
+      : '/memv/',
   plugins: [
     tanstackRouter({
       routesDirectory: './src-web/routes',
